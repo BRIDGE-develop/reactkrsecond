@@ -4,6 +4,8 @@ import App from "./components/App";
 import { Provider } from "react-redux";
 import configure from "./store/configure";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const store = configure();
 
 const Root = () => {
